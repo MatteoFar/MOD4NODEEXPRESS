@@ -5,7 +5,7 @@ dotenv.config();
 
 const SECRET_API_KEY = process.env.SECRET_API_KEY;
 const algorithm = "aes-256-cbc";
-const initVector = "1234567891234567";
+const initVector = process.env.SECRET_INITVECTOR;
 
 export function cipherPassword(password) {
   console.log("apiKEY", SECRET_API_KEY);

@@ -31,7 +31,7 @@ export default async function inscriptionController(req, res) {
         password: encryptedPassword,
       });
       console.log("essaie envoi", sendUser);
-      res.status(200).send({ message: "data envoyée" });
+      res.redirect("/loginPage");
     } else {
       res.send({ message: "Utilisateur existe déjà !" });
       // res.render("home", { message:"Utilisateur existe déjà !" }); // envoie de l'erreur : TODO : faire en sorte que le message d'erreur soit envoyé

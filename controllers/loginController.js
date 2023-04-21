@@ -1,6 +1,5 @@
 import { UserModel } from "../Models/User.js";
 import { validatorLogin } from "../utils/validators.js";
-import crypto from "node:crypto";
 import { decipherPassword } from "../utils/crypto.js";
 import url from "node:url";
 
