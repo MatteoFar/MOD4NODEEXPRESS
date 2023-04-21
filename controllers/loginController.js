@@ -21,6 +21,7 @@ export default async function loginController(req, res) {
       req.session.auth = true;
       // redirection vers la page
 
+      // checker une alternative
       res.redirect(
         url.format({
           pathname: "/dashboard",
