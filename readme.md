@@ -1,5 +1,5 @@
 exercice projet nodemode 4
 
-pour le lancer tapez la commande : "npm install" puis la commande "npm start".
+Créer un fichier .env à la racine du projet, récuperer les variables d'environnement du fichier env-file-exemple et les remplir.
 
-Ne pas oublier de mettre le fichier .env fourni à la racine du projet.
+pour le lancer tapez la commande : "npm install" puis la commande "npm start".
