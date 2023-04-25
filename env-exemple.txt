@@ -3,4 +3,4 @@ APP_PORT = ""
 NODE_ENV = "" # production
 SECRET_API_KEY=""
 SECRET_SESSION_KEY=""
-SECRET_INITVECTOR="" # utiliser pour cipher et decipher les mots de passes
+SECRET_INITVECTOR=""  # utiliser pour cipher et decipher les mots de passes, 16 bytes nécessaires pour le vecteur d'initialisation 
